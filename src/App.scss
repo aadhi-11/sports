@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Sequel Sans';
+  src: url('./fonts/SequelSansTTF.ttf') format('truetype'); /* Adjust the path and format as needed */
+  /* You may need to include additional src lines for different font file formats (e.g., woff, woff2) */
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('./fonts/sofiapro-light.otf') format('otf'), /* adjust path and format */
+    /* Add additional src lines for different font weights/styles if needed */
+  }
 .app{
   max-width: 1440px;
   display: flex;

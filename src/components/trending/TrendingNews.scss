@@ -25,6 +25,7 @@
         height: 100%;
 
         .trendingHead {
+            cursor: pointer;
             width: 200px;
             height: 38px;
             margin-top: 30px;
@@ -145,6 +146,7 @@
                 align-items: center;
                 justify-content: center;
                 margin: 29px 26px 29px 26px;
+                cursor: pointer;
 
                 .text{
                     width: 70px;

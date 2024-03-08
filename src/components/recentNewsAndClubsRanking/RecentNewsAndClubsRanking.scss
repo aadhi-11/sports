@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Sequel Sans';
+    src: url('../../fonts/SequelSansTTF.ttf') format('truetype'); /* Adjust the path and format as needed */
+    /* You may need to include additional src lines for different font file formats (e.g., woff, woff2) */
+  }
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.RecentNewsAndClubsRanking{
+   width: 1170px;
+   height: 354px;
+   margin-top: 50px;
+   margin-left: 135px;
+   display: flex;
+   
+   .left{
+        width: 50%;
+        height: 100%;
+
+        .newsTitle{
+            width: 175px;
+            height: 38px;
+            font-family: 'Sequel Sans', sans-serif;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 38px;
+            color: #262626;
+
+        }
+        .newsContainer{
+            width: 100%;
+            margin-top: 16px;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            .coverContainer{
+                height: 300px;
+                width: 270px;
+
+                .coverimg{
+                    height: 300px;
+                    width: 270px;
+                    position:relative;
+                }
+                .coverText{
+                    width: 270px;
+                    height: 82px;
+                    margin-top: -85px;
+                    
+                    border-radius: 0px 0px 6px 6px;
+                    background-color: rgb(199, 150, 107);
+                    box-shadow: 0px 0px 50px -25px #000000;
+                    position: absolute;
+                    background: linear-gradient(108.74deg, rgb(199, 150, 107) 50%, rgba(255, 255, 255, 0.9) 100%);
+                    display: flex;
+                    flex-direction: column;
+                    .date{
+                        width: 176px;
+                        height: 10px;
+                        margin-top: 16px;
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 500;
+                        font-size: 10px;
+                        margin-left: 18px;
+                        line-height: 10px;
+                        color: #EBEEF3;
+
+                    }
+                    .description{
+                        width: 234px;
+                        margin-top: 10px;
+                        margin-left: 18px;
+                        height: 40px;
+                        font-family: 'Sequal Sans', sans-serif;
+                        font-weight: 410;
+                        font-size: 16px;
+                        line-height: 19.82px;
+                        color: #EBEEF3;
+                    }
+                }
+                
+            }
+            .news{
+                width: 270px;
+                height: 300px;
+                border-radius: 6px;
+                background: #EBEEF3;
+                display: flex;
+                flex-direction: column;
+
+                .newsSection{
+                    flex: 4;
+                    width: 249px;
+                    height: 230px;
+                    margin-left: 5px;
+                    border-radius: 3px;
+                    display: flex;
+                    flex-direction: column;
+
+                    .eachNews{
+                        width: 249px;
+                        height: 70px;
+                        border-radius: 3px;
+                        display: flex;
+                        flex-direction: row;
+                        margin: 8px;
+
+                        .newsimg{
+                            flex:1;
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 3px;
+                        }
+                        .newsRight{
+                            flex: 5;
+                            width: 179px;
+                            height: 70px;
+                            margin-left: 8px;
+
+                            .up{
+                                margin-top: 5px;
+                                width: 118px;
+                                height: 10px;
+                                font-family: 'DM Sans', sans-serif;
+                                font-weight: 500;                            }
+                                font-size: 10px;
+                                line-height: 10.09px;
+                                color: #26262699;
+                            }
+
+                            .down{
+                                width: 177px;
+                                height: 40px;
+                                margin-top: 8px;
+                                font-family: 'Sequal Sans',sans-serif;
+                                font-weight: 410;
+                                font-size: 16px;
+                                line-height: 19.82px;
+                                color:#262626;
+                            }
+                    }
+                }
+            }
+            .moreContainer{
+                height: 42px;
+                width: 270px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .morebutton{
+                    width: 80px;
+                    height: 25px;
+                    border-radius: 3px;
+                    gap: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #B8C2CE;
+
+                    .moretext{
+                        width: 47px;
+                        height: 16px;
+                        font-family: 'DM Sans',sans-serif;
+                        font-weight: 500;
+                        font-size: 14px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #fff;
+                    }
+
+                    .arrow{
+                        font-size: 14px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+   }
+
+   .right{
+        width: 50%;
+        height: 354px;
+
+        .headRight{
+            width: 197px;
+            height: 38px;
+            font-family: 'Sequel Sans',sans-serif;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 38px;
+            color:#262626 ;
+            margin-top: 0;
+            display: flex;
+            
+
+            
+        }
+        .tableContainer{
+            width: 570px;
+            height: 300px;
+            margin-top: 16px;
+            border-radius: 6px;
+            background-color: #EBEEF3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+   }
+}

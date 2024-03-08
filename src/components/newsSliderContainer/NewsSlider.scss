@@ -1,0 +1,176 @@
+
+.newsSlider{
+    width: 1168px;
+    height: 618px;
+    margin-left: 135px;
+    margin-top: 80px;
+    border:mixed solid #EBEEF3 ;
+    border-radius: 6px;
+    .newsSliderContainer{
+        width: 1168px;
+        height: 518px;
+        border-radius: 6px 6px 0px 0px;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        margin-top: -522px;
+
+        .head{
+            width: 107.7px;
+            height: 36.09px;
+            margin-top: 31px;
+            margin-left: 48px;
+            border-radius: 3px;
+            border:1px solid #EBEEF3 ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            .text{
+                width: 76px;
+                height: 26px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 26.04px;
+                color: #EBEEF3;
+                text-align: center;
+            }
+        }
+
+        .newsSesction{
+            margin-top: 221.91px;
+            margin-left: 48px;
+            height: 215px;
+            width: 760px;
+            display: flex;
+            flex-direction: column;
+
+            .top{
+                width: 375px;
+                height: 14px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18.16px;
+                color: #F9FAFC;
+            }
+
+            .mid{
+                width: 760px;
+                height: 112px;
+                margin-top: 10px;
+                font-family: 'Sequel Sans', sans-serif;
+                font-weight: 800;
+                font-size: 36px;
+                line-height: 43px;
+                color: #F9FAFC;
+            }
+            .bottom{
+                width: 697px;
+                height: 56px;
+                margin-top: 10px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 28px;
+                color: #ffffff;
+
+            }
+        }
+    }
+    .coverImg{
+        position: relative;
+        width: 1168px;
+        height: 518px;
+
+    }
+    .slider{
+        background: #EBEEF3;
+        width: 100%;
+        height: 95px;
+        margin-top: -25px;
+
+        .sliderContainer{
+            width: 470px;
+            height: 60px;
+            margin-top: 20px;
+            margin-left: 673px;
+            border: 2px solid #EBEEF3;
+            border-radius: 3px;
+            
+
+            .sliderInside{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .arrowkeyLeft{
+                    margin-top: 20px;
+                    width: 70px;
+                    height: 50px;
+                    background-color: rgb(179, 178, 178);
+                    border-radius: 3px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .arrowkey{
+                        color: #ffffff;
+                        font-size: 25px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+                }
+                .arrowkeyRight{
+                    margin-top: 20px;
+                    width: 70px;
+                    height: 50px;
+                    background-color: rgb(0, 0, 0);
+                    border-radius: 3px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .arrowkey{
+                        color: #ffffff;
+                        font-size: 25px;
+                        font-weight: bold;
+                        cursor: pointer;
+                    }
+
+                }
+                .pagenum{
+                    cursor: pointer;
+                    width: 35px;
+                    height: 35px;
+                    margin-left: 11px;
+                    font-family: 'Sequel Sans', sans-serif;
+                    font-weight: 405;
+                    font-size: 24px;
+                    line-height: 60px;
+                    color: #2626269C;
+
+                    .selected{
+                        margin-top: 14px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #262626 ;
+                        color: white;
+                        font-family: 'Sequel Sans', sans-serif;
+                        font-weight: 505;
+                        font-size: 24px;
+                        line-height: 60px;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+
+                    }
+                    
+                    
+                }
+                
+            }
+        }
+    }
+}

@@ -4,6 +4,8 @@ import NavBar from '../components/navbar/NavBar'
 import Hero from '../components/hero/Hero'
 import Category from '../components/category/Category'
 import TrendingNews from '../components/trending/TrendingNews'
+import NewsSlider from '../components/newsSliderContainer/NewsSlider'
+import RecentNewsAndClubsRanking from '../components/recentNewsAndClubsRanking/RecentNewsAndClubsRanking'
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
           <Hero/>
           <Category/>
           <TrendingNews/>
+          <NewsSlider/>
+          <RecentNewsAndClubsRanking/>
             home container
         </div>
     </div>
