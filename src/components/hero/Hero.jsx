@@ -15,7 +15,7 @@ const Hero = () => {
         setMore(false)
     }
     return (
-        <div className='hero'>
+        <div className={more ? 'heroExt' : 'hero'}>
             <div className="bgContainer">
                 <img src={bg} alt="" srcset="" className='background' />
             </div>
@@ -28,34 +28,37 @@ const Hero = () => {
                 <div className="cover">
                     <img src={coverIMg} alt="cover" className='img' />
                 </div>
-                <div className="textBox">
+                
 
                     {more ? (
-                        <>
+                        <>  
+                            <div className="textBoxExt">
                             <div className="paraContainer">
                                 <div className='text'>
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
-                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                                    There are many variations of ssary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
                                 </div>
                             </div>
                             <div className="buttonContainer2">
                                 <div className='btn' onClick={Shorten} >Read Less..</div>
                             </div>
+                            </div>
                         </>
                     ) : (
                         <>
+                            <div className="textBox">
                             <div className="paraContainer">
                                 <div className='text'>
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
                                 </div>
                             </div>
                             <div className="buttonContainer">
-                                <div className='btn' onClick={Extend} >Continue Reading..</div>
+                                <div className='btn' onClick={Extend} >Continue reading..</div>
+                            </div>
                             </div>
                         </>
                     )}
 
-                </div>
                 <div className="rightContainer">
                     <div className="headContainer">
                         <div className="title">
