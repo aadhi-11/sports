@@ -8,16 +8,18 @@
 
 .navBar{
     max-width: 1440px;
-    width: 100%;
+    flex-wrap: wrap;
     height: 92px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 
     .logoContainer{
-        width: 154px;
+        max-width: 154px;
         height: 42px;
         padding-top: 23px;
         padding-left: 125px;
+        cursor: poin;
 
         .logo{
             font-family: 'Darkline', sans-serif;
@@ -30,7 +32,7 @@
     }
 
     .navItems{
-        width: 715px;
+        max-width: 715px;
         height: 62px;
         padding-top: 15px;
         padding-left: 74px;
@@ -39,14 +41,14 @@
         justify-content: space-between;
 
         .navHome{
-            width: 64px;
+            max-width: 64px;
             height: 62px;
             padding: 10px;
             gap: 10px;
             cursor: pointer;
 
             .hometext{
-                width: 44px;
+                max-width: 44px;
                 height: 44px;
                 font-family: 'DM Sans', sans-serif;
                 font-weight: 700;
@@ -58,13 +60,13 @@
         }
 
         .navCategory{
-            width: 85px;
+            max-width: 85px;
             height: 62px;
             padding: 10px;
             gap: 10px;
 
             .Categorytext{
-                width: 65px;
+                max-width: 65px;
                 height: 42px;
                 font-family: 'DM Sans', sans-serif;
                 font-size: 15px;
@@ -75,13 +77,13 @@
         }
 
         .navTrending{
-            width: 123px;
+            max-width: 123px;
             height: 62px;
             padding: 10px;gap: 10px;
 
             .trendingtext{
-                width: 103px;
-                height: 42px;
+                width:103px;
+                max-height: 42px;
                 font-family: 'DM Sans', sans-serif;
                 font-size: 15px;
                 line-height: 42px;
@@ -90,7 +92,7 @@
         }
 
         .navRecent{
-            height: 112px;
+            max-width: 112px;
             height: 62px;
             padding: 10px;
             gap: 10px;
@@ -106,7 +108,7 @@
         }
         .navranking{
             height: 119px;
-            width: 62px;
+            max-width: 62px;
             padding: 10px;
             gap: 10px;
             
@@ -123,7 +125,7 @@
         }
 
         .navArticle{
-            width: 117px;
+            max-width: 117px;
             height: 62px;
             padding: 10px;
             gap: 10px;
@@ -141,7 +143,7 @@
         }
     }
     .SearchBarContainer{
-        width: 100px;
+        max-width: 100px;
         height: 35px;
         margin-top: 28px;
         margin-left: 127px;
@@ -152,11 +154,11 @@
         align-items: center;
 
         .searchIconBox{
-            width: 39px;
+            max-width: 39px;
             height: 39px;
 
             .icon{
-                width: 16px;
+                max-width: 16px;
                 height: 16px;
                 padding-top: 12.5px;
                 padding-left: 1.5px;

@@ -23,7 +23,6 @@ const Home = () => {
           <NewsArticle/>
           <NewsLetterSub/>
           <Footer/>
-            home container
         </div>
     </div>
   )

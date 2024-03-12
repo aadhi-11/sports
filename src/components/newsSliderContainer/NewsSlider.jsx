@@ -1,30 +1,43 @@
 import React from 'react'
 import './NewsSlider.scss'
-import newsSliderCover from '../../assets/images/newsSliderCover.png'
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import EastIcon from '@mui/icons-material/East';
+import Slider from './slider/Slider';
+import newsSliderCover1 from '../../assets/images/newsSliderCover.png'
+import newsSliderCover2 from '../../assets/images/Designer (1).png'
+import newsSliderCover3 from '../../assets/images/Designer (2).png'
+const sliderData = [
+    {
+        id:1,
+        cover:newsSliderCover1,
+        sportName:"Football",
+        date:'Agence France-Presse - 04 June 2023',
+        newshead:'Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms',
+        newsDescrip:"The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals"
+    }
+    ,
+    {
+        id:2,
+        cover:newsSliderCover2,
+        sportName:"Cricket",
+        date:'Agence France-Presse - 04 June 2023',
+        newshead:'Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms',
+        newsDescrip:"The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals"
+    }
+    ,{
+        id:1,
+        cover:newsSliderCover3,
+        sportName:"HandBall",
+        date:'Agence France-Presse - 04 June 2023',
+        newshead:'Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms',
+        newsDescrip:"The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals"
+    }
+]
 const NewsSlider = () => {
     return (
         <div className='newsSlider'>
-            <img src={newsSliderCover} alt="" className="coverImg" />
-            <div className="newsSliderContainer">
-                <div className="head">
-                    <div className="text">
-                        Football
-                    </div>
-                </div>
-                <div className="newsSesction">
-                    <div className="top">
-                        Agence France-Presse - 04 June 2023
-                    </div>
-                    <div className="mid">
-                        Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms
-                    </div>
-                    <div className="bottom">
-                        The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
-                    </div>
-                </div>
-            </div>
+            <Slider/>
+
             <div className="slider">
                 <div className="sliderContainer">
                     <div className="sliderInside">
@@ -45,7 +58,7 @@ const NewsSlider = () => {
                         <div className="arrowkeyRight">
                             <EastIcon className='arrowkey' />
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
