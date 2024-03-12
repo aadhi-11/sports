@@ -2,27 +2,27 @@ import React from 'react'
 import './Slider.scss'
 import newsSliderCover1 from '../../../assets/images/newsSliderCover.png'
 
-const Slider = () => {
+const Slider = ({data}) => {
 
     
     return (
         <div className="insideContainer">
-            <img src={newsSliderCover1} alt="" className="coverImg" />
+            <img src={data.cover} alt="" className="coverImg" />
             <div className="newsSliderContainer">
                 <div className="head">
                     <div className="text">
-                        Football
+                        {data.sportName}
                     </div>
                 </div>
                 <div className="newsSesction">
                     <div className="top">
-                        Agence France-Presse - 04 June 2023
+                        {data.date}
                     </div>
                     <div className="mid">
-                        Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms
+                        {data.newshead}
                     </div>
                     <div className="bottom">
-                        The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
+                        {data.newsDescrip}
                     </div>
                 </div>
             </div>

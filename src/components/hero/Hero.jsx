@@ -28,11 +28,11 @@ const Hero = () => {
                 <div className="cover">
                     <img src={coverIMg} alt="cover" className='img' />
                 </div>
-                
 
-                    {more ? (
-                        <>  
-                            <div className="textBoxExt">
+
+                {more ? (
+                    <>
+                        <div className="textBoxExt">
                             <div className="paraContainer">
                                 <div className='text'>
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
@@ -42,11 +42,11 @@ const Hero = () => {
                             <div className="buttonContainer2">
                                 <div className='btn' onClick={Shorten} >Read Less..</div>
                             </div>
-                            </div>
-                        </>
-                    ) : (
-                        <>
-                            <div className="textBox">
+                        </div>
+                    </>
+                ) : (
+                    <>
+                        <div className="textBox">
                             <div className="paraContainer">
                                 <div className='text'>
                                     The EuroLeague Finals Top Scorer is the individual award for the player that gained the highest points in the EuroLeague Finals
@@ -55,9 +55,9 @@ const Hero = () => {
                             <div className="buttonContainer">
                                 <div className='btn' onClick={Extend} >Continue reading..</div>
                             </div>
-                            </div>
-                        </>
-                    )}
+                        </div>
+                    </>
+                )}
 
                 <div className="rightContainer">
                     <div className="headContainer">
@@ -95,18 +95,18 @@ const Hero = () => {
                     </div>
                     {more ? (
                         <div className="topFrame">
-                        <img src={thirdCover} alt="cover" className='coverImg' />
-                        <div className="topblendor">
-                            <div className="textContainer">
-                                <div className="date">
-                                    ICC WC - 2023
+                            <img src={thirdCover} alt="cover" className='coverImg' />
+                            <div className="topblendor">
+                                <div className="textContainer">
+                                    <div className="date">
+                                        ICC WC - 2023
+                                    </div>
+                                    <div className="description">
+                                        Kohli Scores the Hundred and India wins</div>
                                 </div>
-                                <div className="description">
-                                   Kohli Scores the Hundred and India wins</div>
                             </div>
-                        </div>
 
-                    </div>
+                        </div>
                     ) : null}
 
                 </div>
