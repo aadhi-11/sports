@@ -76,6 +76,7 @@ const NewsSlider = () => {
                                      updateIndex(activeIndex + 1) 
                                 }}
                             style={{ 
+                                cursor:'pointer',
                                 background: activeIndex === sliderData.length - 1 ? '#BAB8B8' : '#262626' 
                             }}
                         >

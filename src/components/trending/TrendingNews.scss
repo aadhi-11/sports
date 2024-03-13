@@ -12,8 +12,8 @@
   }
   
 .trending {
-    width: 1170px;
-    height: 609px;
+    max-width: 1170px;
+    max-height: 609px;
     margin-top: 80px;
     border-radius: 6px;
     display: flex;
@@ -200,6 +200,105 @@
             
             /* Convert 8% opacity to decimal */
             
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .trending{
+        max-width: 700px;
+        max-height: 1400px;
+
+        margin-top: -190px;
+        border-radius: 6px;
+        display: flex;
+        margin-left: 110px;
+        flex-direction: column;
+        background: #EBEEF3;
+        .left {
+            width: 600px;
+            padding-left: -30px;
+    
+            .trendingHead {
+                cursor: pointer;
+                max-width: 160px;
+                font-size: 20px;
+            }
+    
+            .newsContainer {  
+                margin-left: -30px;
+                .newsSection {
+                    .imgcontainer {
+    
+                        max-width: 134px;
+                        height: 130px;
+                        border-radius: 6px;
+    
+                        .newsImg {
+                            width: 134px;
+                            height: 130px;
+                            border-radius: 6px;
+                        }
+                    }
+    
+                    .newsDetailsSection {
+                        width: 248px;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 20px;
+    
+                        .line{
+                            margin-top: -20px;
+                        }
+    
+                        .top {
+
+                            font-size: 8px;
+                        }
+    
+                        .middle {
+
+                            font-size: 12.9px;
+                        }
+    
+                        .bottom{
+                            font-size: 10px;
+                        }
+                    }
+                }
+    
+                
+            }
+        }
+        .right {
+            max-width: 700px;
+            margin-top: 50px;
+            max-height: 728px;
+            .bgContainer{
+                width: 700px;
+                max-height: 728px;
+
+                .head{
+                    width: 85.7px;
+                    height: 32.9px;
+
+    
+                    .text{
+                        width: 60px;
+                        height: 20px;
+                        font-size: 17px;
+                        line-height: 20.04px;
+
+                    }
+                }
+                
+               
+            }
+            .bgimg{
+                width: 700px;
+                height: 610px;
+            }
         }
     }
 }

@@ -1,22 +1,24 @@
 @font-face {
     font-family: 'Sequel Sans';
-    src: url('../../fonts/SequelSansTTF.ttf') format('truetype'); /* Adjust the path and format as needed */
+    src: url('../../fonts/SequelSansTTF.ttf') format('truetype');
+    /* Adjust the path and format as needed */
     /* You may need to include additional src lines for different font file formats (e.g., woff, woff2) */
-  }
-  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+}
 
-.RecentNewsAndClubsRanking{
-   width: 1170px;
-   height: 354px;
-   margin-top: 50px;
-   margin-left: 135px;
-   display: flex;
-   
-   .left{
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+.RecentNewsAndClubsRanking {
+    width: 1170px;
+    height: 354px;
+    margin-top: 50px;
+    margin-left: 135px;
+    display: flex;
+
+    .left {
         width: 50%;
         height: 100%;
 
-        .newsTitle{
+        .newsTitle {
             width: 175px;
             height: 38px;
             font-family: 'Sequel Sans', sans-serif;
@@ -26,27 +28,30 @@
             color: #262626;
 
         }
-        .newsContainer{
+
+        .newsContainer {
             width: 100%;
             margin-top: 16px;
             height: 300px;
             display: flex;
             flex-direction: row;
             gap: 20px;
-            .coverContainer{
+
+            .coverContainer {
                 height: 300px;
                 width: 270px;
 
-                .coverimg{
+                .coverimg {
                     height: 300px;
                     width: 270px;
-                    position:relative;
+                    position: relative;
                 }
-                .coverText{
+
+                .coverText {
                     width: 270px;
                     height: 82px;
                     margin-top: -85px;
-                    
+
                     border-radius: 0px 0px 6px 6px;
                     background-color: rgb(199, 150, 107);
                     box-shadow: 0px 0px 50px -25px #000000;
@@ -54,7 +59,8 @@
                     background: linear-gradient(108.74deg, rgb(199, 150, 107) 50%, rgba(255, 255, 255, 0.9) 100%);
                     display: flex;
                     flex-direction: column;
-                    .date{
+
+                    .date {
                         width: 176px;
                         height: 10px;
                         margin-top: 16px;
@@ -66,7 +72,8 @@
                         color: #EBEEF3;
 
                     }
-                    .description{
+
+                    .description {
                         width: 234px;
                         margin-top: 10px;
                         margin-left: 18px;
@@ -78,9 +85,10 @@
                         color: #EBEEF3;
                     }
                 }
-                
+
             }
-            .news{
+
+            .news {
                 width: 270px;
                 height: 300px;
                 border-radius: 6px;
@@ -88,7 +96,7 @@
                 display: flex;
                 flex-direction: column;
 
-                .newsSection{
+                .newsSection {
                     flex: 4;
                     width: 249px;
                     height: 230px;
@@ -97,7 +105,7 @@
                     display: flex;
                     flex-direction: column;
 
-                    .eachNews{
+                    .eachNews {
                         width: 249px;
                         height: 70px;
                         border-radius: 3px;
@@ -105,50 +113,54 @@
                         flex-direction: row;
                         margin: 8px;
 
-                        .newsimg{
-                            flex:1;
+                        .newsimg {
+                            flex: 1;
                             width: 70px;
                             height: 70px;
                             border-radius: 3px;
                         }
-                        .newsRight{
+
+                        .newsRight {
                             flex: 5;
                             width: 179px;
                             height: 70px;
                             margin-left: 8px;
 
-                            .up{
+                            .up {
                                 margin-top: 5px;
                                 width: 118px;
                                 height: 10px;
                                 font-family: 'DM Sans', sans-serif;
-                                font-weight: 500;                            }
-                                font-size: 10px;
-                                line-height: 10.09px;
-                                color: #26262699;
+                                font-weight: 500;
                             }
 
-                            .down{
-                                width: 177px;
-                                height: 40px;
-                                margin-top: 8px;
-                                font-family: 'Sequal Sans',sans-serif;
-                                font-weight: 410;
-                                font-size: 16px;
-                                line-height: 19.82px;
-                                color:#262626;
-                            }
+                            font-size: 10px;
+                            line-height: 10.09px;
+                            color: #26262699;
+                        }
+
+                        .down {
+                            width: 177px;
+                            height: 40px;
+                            margin-top: 8px;
+                            font-family: 'Sequal Sans', sans-serif;
+                            font-weight: 410;
+                            font-size: 16px;
+                            line-height: 19.82px;
+                            color: #262626;
+                        }
                     }
                 }
             }
-            .moreContainer{
+
+            .moreContainer {
                 height: 42px;
                 width: 270px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
-                .morebutton{
+                .morebutton {
                     width: 80px;
                     height: 25px;
                     border-radius: 3px;
@@ -158,10 +170,10 @@
                     align-items: center;
                     background: #B8C2CE;
 
-                    .moretext{
+                    .moretext {
                         width: 47px;
                         height: 16px;
-                        font-family: 'DM Sans',sans-serif;
+                        font-family: 'DM Sans', sans-serif;
                         font-weight: 500;
                         font-size: 14px;
                         display: flex;
@@ -170,34 +182,35 @@
                         color: #fff;
                     }
 
-                    .arrow{
+                    .arrow {
                         font-size: 14px;
                         color: #fff;
                     }
                 }
             }
         }
-   }
+    }
 
-   .right{
+    .right {
         width: 50%;
         height: 354px;
 
-        .headRight{
+        .headRight {
             width: 197px;
             height: 38px;
-            font-family: 'Sequel Sans',sans-serif;
+            font-family: 'Sequel Sans', sans-serif;
             font-weight: 600;
             font-size: 28px;
             line-height: 38px;
-            color:#262626 ;
+            color: #262626;
             margin-top: 0;
             display: flex;
-            
 
-            
+
+
         }
-        .tableContainer{
+
+        .tableContainer {
             width: 580px;
             height: 300px;
             margin-top: 16px;
@@ -207,5 +220,229 @@
             align-items: center;
             justify-content: center;
         }
-   }
+    }
+}
+
+@media (max-width: 900px) {
+    .RecentNewsAndClubsRanking {
+        width: 700px;
+        height: 750px;
+        margin-top: 0px;
+        margin-left: 110px;
+        display: flex;
+        flex-direction: column;
+
+        .left {
+            width: 700px;
+            height: 354px;
+
+            .newsTitle {
+                width: 175px;
+                height: 38px;
+                font-family: 'Sequel Sans', sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 18px;
+                color: #262626;
+                margin-left: 5px;
+
+            }
+
+            .newsContainer {
+                width: 700px;
+                margin-top: 0px;
+                height: 350px;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+
+                .coverContainer {
+                    height: 350px;
+                    width: 350px;
+
+                    .coverimg {
+                        height: 350px;
+                        width: 350px;
+                        position: relative;
+                    }
+
+                    .coverText {
+                        width: 350px;
+                        height: 92px;
+                        margin-top: -95px;
+
+                        border-radius: 0px 0px 6px 6px;
+                        background-color: rgb(199, 150, 107);
+                        box-shadow: 0px 0px 50px -25px #000000;
+                        position: absolute;
+                        background: linear-gradient(108deg, rgb(199, 150, 107) 50%, rgba(221, 216, 216, 0.978) 100%);
+                        display: flex;
+                        flex-direction: column;
+
+                        .date {
+                            width: 176px;
+                            height: 10px;
+                            margin-top: 16px;
+                            font-family: 'DM Sans', sans-serif;
+                            font-weight: 500;
+                            font-size: 12px;
+                            margin-left: 18px;
+                            line-height: 10px;
+                            color: #EBEEF3;
+
+                        }
+                        .description {
+                            width: 334px;
+                            margin-top: 10px;
+                            margin-left: 18px;
+                            height: 30px;
+                            font-family: 'Sequal Sans', sans-serif;
+                            font-weight: 610;
+                            font-size: 20px;
+                            line-height: 20.82px;
+                            color: #EBEEF3;
+                        }
+                    }
+
+                }
+
+                .news {
+                    width: 330px;
+                    height: 350px;
+                    border-radius: 6px;
+                    background: #EBEEF3;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    .newsSection {
+                        flex: 4;
+                        width: 300px;
+                        height: 230px;
+                        margin-left: 5px;
+                        border-radius: 3px;
+                        display: flex;
+                        flex-direction: column;
+
+                        .eachNews {
+                            width: 300px;
+                            height: 70px;
+                            border-radius: 3px;
+                            display: flex;
+                            flex-direction: row;
+                            margin: 8px;
+                            margin-top: 20px;
+
+                            .newsimg {
+                                flex: 1;
+                                width: 90px;
+                                height: 90px;
+                                border-radius: 3px;
+                            }
+
+                            .newsRight {
+                                flex: 5;
+                                width: 279px;
+                                height: 70px;
+                                margin-left: 8px;
+                                margin-left: 30px;
+
+                                .up {
+                                    margin-top: 15px;
+                                
+                                    width: 218px;
+                                    height: 13px;
+                                    font-family: 'DM Sans', sans-serif;
+                                    font-weight: 500;
+                                    font-size: 13px;
+                                    line-height: 13.09px;
+                                    color: #26262699;
+                                }
+
+                                
+                            }
+
+                            .down {
+                                width: 177px;
+                                height: 40px;
+                                margin-top: 12px;
+                                font-family: 'Sequal Sans', sans-serif;
+                                font-weight: 560;
+                                font-size: 16px;
+                                line-height: 19.82px;
+                                color: #262626;
+                            }
+                        }
+                    }
+                }
+
+                .moreContainer {
+                    height: 42px;
+                    width: 350px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .morebutton {
+                        width: 80px;
+                        height: 25px;
+                        border-radius: 3px;
+                        gap: 6px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: #B8C2CE;
+
+                        .moretext {
+                            width: 47px;
+                            height: 16px;
+                            font-family: 'DM Sans', sans-serif;
+                            font-weight: 500;
+                            font-size: 14px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                        }
+
+                        .arrow {
+                            font-size: 14px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+           max-width: 700px;
+            height: 354px;
+            margin-top: 50px;
+
+            .headRight {
+                width: 197px;
+                height: 38px;
+                font-family: 'Sequel Sans', sans-serif;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 22px;
+                color: #262626;
+                margin-top: 10px;
+                display: flex;
+
+
+
+            }
+
+            .tableContainer {
+                width: 700px;
+                height: 300px;
+                margin-top: 0px;
+                border-radius: 6px;
+                background-color: #EBEEF3;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
 }

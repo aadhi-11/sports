@@ -101,7 +101,7 @@ const rows = [
 export default function BasicTable() {
   return (
     <div className="tContainer">
-      <table style={{ height: '285px', width: '510px' }}>
+      <table >
         <thead>
           <tr className="tr">
             <th className="thead">Club</th>

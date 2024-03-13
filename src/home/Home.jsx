@@ -17,12 +17,12 @@ const Home = () => {
         <div className="homeContainer">
           <Hero/>
           <Category/>
-          {/* <TrendingNews/>
+          <TrendingNews/>
           <NewsSlider/>
           <RecentNewsAndClubsRanking/>
           <NewsArticle/>
-          <NewsLetterSub/> */}
-          {/* <Footer/> */}
+          <NewsLetterSub/>
+          <Footer/>
         </div>
     </div>
   )
