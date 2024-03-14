@@ -63,7 +63,7 @@ const TrendingNews = () => {
                 </div>
             </div>
             <div className="right">
-            <img src={newsRight} alt="newsRight" className="bgimg" />
+                <img src={newsRight} alt="newsRight" className="bgimg" />
                 <div className="bgContainer">
                     <div className="head">
                         <div className="text">

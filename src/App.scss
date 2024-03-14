@@ -21,3 +21,12 @@
     max-width: 1440px;
   }
 }
+@media (max-width: 500px) {
+  .app{
+    max-width: 500px;
+    
+    .appContainer{
+      max-width: 500px;
+    }
+  }
+}

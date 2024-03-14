@@ -184,7 +184,7 @@
             }
         }
         .searchText{
-            width: 52px;
+            max-width: 52px;
             height: 42px;
             font-family: 'DM Sans', sans-serif;
             font-size: 14px;
@@ -251,4 +251,73 @@
         
     }
     
+}
+
+@media (max-width: 500px) {
+    .navBar{
+        max-width: 500px;
+
+        .logoContainer{
+            margin-left: 50px;
+            max-width: 154px;
+            
+
+        }
+        .nav-items{
+            max-width: 300px;
+        }
+        .menu-div {
+
+            .menu-icon {
+                object-fit: cover;
+                height: 3rem;
+                cursor: pointer;
+                margin-left: 180px;
+            }
+            .menu-icon2{
+                margin-right: 220px;
+                cursor: pointer;
+            }
+            .burger-menu{
+
+                .burger-menu-nav-list{
+                    list-style: none;
+                    text-align: center;
+                    font-size: 18px;
+                    padding: 15px 10px;
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 600;
+                    color: #E1E8F0;
+
+                    li{
+                        .searchBox{
+                            margin-top: 50px;
+                            max-height: 45px;
+                            max-width: 140px;
+                            display: flex;
+                            flex-direction: row;
+                            border: 1px solid white;
+                            border-radius: 6px;
+                            background-color: white;
+                            align-items: center;
+                            gap: 10px;
+
+                            .icon{
+                                color: #262626;
+                                padding-left: 10px;
+                            }
+
+                            
+                        }
+                        .searchText{
+                            margin-top: -25px;
+                            color: #262626;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
 }

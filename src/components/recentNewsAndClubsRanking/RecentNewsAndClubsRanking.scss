@@ -8,19 +8,21 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 .RecentNewsAndClubsRanking {
-    width: 1170px;
-    height: 354px;
+    max-width: 1170px;
+    max-height: 354px;
     margin-top: 50px;
     margin-left: 135px;
     display: flex;
+    flex-direction: row;
+    gap: 50px;
 
     .left {
-        width: 50%;
-        height: 100%;
+        max-width: 580px;
+        max-height: 354px;
 
         .newsTitle {
-            width: 175px;
-            height: 38px;
+            max-width: 175px;
+            max-height: 38px;
             font-family: 'Sequel Sans', sans-serif;
             font-weight: 600;
             font-size: 28px;
@@ -30,28 +32,30 @@
         }
 
         .newsContainer {
-            width: 100%;
+            max-width: 580px;
             margin-top: 16px;
-            height: 300px;
+            max-height: 300px;
             display: flex;
             flex-direction: row;
             gap: 20px;
 
             .coverContainer {
-                height: 300px;
-                width: 270px;
+                max-height: 300px;
+                max-width: 270px;
 
                 .coverimg {
-                    height: 300px;
-                    width: 270px;
+                    max-height: 300px;
+                    max-width: 270px;
                     position: relative;
                 }
 
                 .coverText {
-                    width: 270px;
-                    height: 82px;
+                    max-width: 300px;
+                    padding-right: 20px;
+                    padding-bottom: 10px;
+                    max-height: 82px;
                     margin-top: -85px;
-
+                    margin-right: 40px;
                     border-radius: 0px 0px 6px 6px;
                     background-color: rgb(199, 150, 107);
                     box-shadow: 0px 0px 50px -25px #000000;
@@ -61,8 +65,8 @@
                     flex-direction: column;
 
                     .date {
-                        width: 176px;
-                        height: 10px;
+                        max-width: 176px;
+                        max-height: 10px;
                         margin-top: 16px;
                         font-family: 'DM Sans', sans-serif;
                         font-weight: 500;
@@ -74,10 +78,10 @@
                     }
 
                     .description {
-                        width: 234px;
+                        max-width: 234px;
                         margin-top: 10px;
                         margin-left: 18px;
-                        height: 40px;
+                        max-height: 40px;
                         font-family: 'Sequal Sans', sans-serif;
                         font-weight: 410;
                         font-size: 16px;
@@ -89,8 +93,8 @@
             }
 
             .news {
-                width: 270px;
-                height: 300px;
+                max-width: 270px;
+                max-height: 300px;
                 border-radius: 6px;
                 background: #EBEEF3;
                 display: flex;
@@ -98,16 +102,16 @@
 
                 .newsSection {
                     flex: 4;
-                    width: 249px;
-                    height: 230px;
+                    max-width: 249px;
+                    max-height: 230px;
                     margin-left: 5px;
                     border-radius: 3px;
                     display: flex;
                     flex-direction: column;
 
                     .eachNews {
-                        width: 249px;
-                        height: 70px;
+                        max-width: 249px;
+                        max-height: 70px;
                         border-radius: 3px;
                         display: flex;
                         flex-direction: row;
@@ -115,33 +119,34 @@
 
                         .newsimg {
                             flex: 1;
-                            width: 70px;
-                            height: 70px;
+                            max-width: 70px;
+                            max-height: 70px;
                             border-radius: 3px;
                         }
 
                         .newsRight {
                             flex: 5;
-                            width: 179px;
-                            height: 70px;
+                            max-width: 179px;
+                            max-height: 70px;
                             margin-left: 8px;
 
                             .up {
                                 margin-top: 5px;
-                                width: 118px;
-                                height: 10px;
+                                max-width:  118px;
+                                max-height: 10px;
                                 font-family: 'DM Sans', sans-serif;
                                 font-weight: 500;
+                                font-size: 10px;
+                                line-height: 10.09px;
+                                color: #26262699;
                             }
 
-                            font-size: 10px;
-                            line-height: 10.09px;
-                            color: #26262699;
-                        }
+                            
+                        
 
                         .down {
-                            width: 177px;
-                            height: 40px;
+                            max-width:  177px;
+                            max-height: 40px;
                             margin-top: 8px;
                             font-family: 'Sequal Sans', sans-serif;
                             font-weight: 410;
@@ -149,20 +154,23 @@
                             line-height: 19.82px;
                             color: #262626;
                         }
+                        }
                     }
                 }
             }
 
             .moreContainer {
-                height: 42px;
-                width: 270px;
+                max-height: 42px;
+                max-width:  270px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                margin-top: 28px;
 
                 .morebutton {
-                    width: 80px;
-                    height: 25px;
+                    margin-left: -50px;
+                    max-width:  80px;
+                    max-height: 25px;
                     border-radius: 3px;
                     gap: 6px;
                     display: flex;
@@ -171,8 +179,8 @@
                     background: #B8C2CE;
 
                     .moretext {
-                        width: 47px;
-                        height: 16px;
+                        max-width : 47px;
+                        max-height: 16px;
                         font-family: 'DM Sans', sans-serif;
                         font-weight: 500;
                         font-size: 14px;
@@ -192,12 +200,12 @@
     }
 
     .right {
-        width: 50%;
-        height: 354px;
+        max-width: 580px;
+        max-height: 354px;
 
         .headRight {
-            width: 197px;
-            height: 38px;
+            max-width: 197px;
+            max-height: 38px;
             font-family: 'Sequel Sans', sans-serif;
             font-weight: 600;
             font-size: 28px;
@@ -211,14 +219,11 @@
         }
 
         .tableContainer {
-            width: 580px;
-            height: 300px;
+            max-width: 580px;
+            max-height: 300px;
             margin-top: 16px;
             border-radius: 6px;
             background-color: #EBEEF3;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
     }
 }
@@ -434,14 +439,88 @@
             }
 
             .tableContainer {
-                width: 700px;
-                height: 300px;
-                margin-top: 0px;
-                border-radius: 6px;
-                background-color: #EBEEF3;
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                max-width: 700px;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .RecentNewsAndClubsRanking{
+        max-width: 400px;
+        margin-left: 65px;
+        display: flex;
+        flex-direction: column;
+        max-height: 720px;
+        gap: 30px;
+        .left{
+            max-width: 400px;
+            margin-left: 0px;
+            .newsContainer{
+                max-width: 400px;
+                .coverContainer{
+                    max-width: 180px;
+                    .coverimg{
+                        max-width: 180px;
+                    }
+                    .coverText{
+                        max-width: 180px;
+                        margin-top: -86px;
+                        padding-right: 0px;
+                        padding-bottom: 0px;
+                        .date{
+                            max-width: 140px;
+                            font-size: 8px;
+                            line-height: 8px;
+                        }
+                        .description{
+                            max-width: 160px;
+                            font-size: 14px;
+                            line-height: 14px;
+                        }
+                    }
+                }
+                .news{
+                    max-width: 180px;
+                    .newsSection{
+                        max-width: 180px;
+
+                        .eachNews{
+                            max-width: 180px;
+
+                            .newsimg{
+                                max-width: 70px;
+                                max-height: 70px;
+                            }
+                            .newsRight{
+                                max-width: 120px;
+                                margin-left: 5px;
+
+                                .up{
+                                    margin-top: 0px;
+                                    max-width: 100px;
+                                    font-size: 8px;
+                                    line-height: 8px;
+                                }
+                                .down{
+                                    max-width: 110px;
+                                    font-size: 14px;
+                                    line-height: 14px;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .right{
+            margin-left: 0px;
+            max-width: 400px;
+            .tableContainer{
+                max-width: 400px;
+                
             }
         }
     }

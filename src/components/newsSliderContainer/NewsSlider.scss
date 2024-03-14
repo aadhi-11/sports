@@ -99,7 +99,7 @@
 
             .coverImg {
                 position: relative;
-                width: 1168px;
+                max-width: 1168px;
                 max-height: 518px;
 
             }
@@ -110,29 +110,31 @@
 
     .slider {
         background: #EBEEF3;
-        width: 100%;
-        height: 95px;
+        max-width: 1170px;
+        max-height: 95px;
         margin-top: -25px;
         border-radius: 6px;
 
         .sliderContainer {
-            width: 470px;
-            height: 60px;
+            max-width: 470px;
+            max-height: 60px;
             margin-top: 20px;
-            margin-left: 673px;
+            margin-left: 873px;
             border: 2px solid #EBEEF3;
             border-radius: 3px;
 
 
             .sliderInside {
+                max-width: 470px;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
+                gap: 20px;
 
                 .arrowkeyLeft {
                     margin-top: 20px;
-                    width: 70px;
-                    height: 50px;
+                    max-width: 70px;
+                    max-height: 70px;
                     // background-color: rgb(179, 178, 178);
                     border-radius: 3px;
                     display: flex;
@@ -149,8 +151,8 @@
 
                 .arrowkeyRight {
                     margin-top: 20px;
-                    width: 70px;
-                    height: 50px;
+                    max-width: 70px;
+                    max-height: 50px;
                     // background-color: rgb(0, 0, 0);
                     border-radius: 3px;
                     display: flex;
@@ -174,8 +176,8 @@
 
                     .pagenum {
                         cursor: pointer;
-                        width: 35px;
-                        height: 35px;
+                        max-width: 35px;
+                        max-height: 35px;
                         margin-left: 11px;
                         font-family: 'Sequel Sans', sans-serif;
                         font-weight: 405;
@@ -185,7 +187,7 @@
                     }
 
                     .selected {
-                        margin-left: 5px;
+                        margin-left: 0px;
                         margin-top: 12px;
                         display: flex;
                         justify-content: center;
@@ -272,13 +274,13 @@
                     .newsSesction {
                         margin-top: 100px;
                         margin-left: 35px;
-                        height: 215px;
-                        width: 760px;
+                        max-height: 215px;
+                        max-width: 760px;
 
     
                         .top {
-                            width: 255px;
-                            height: 14px;
+                            max-width: 255px;
+                            max-height: 14px;
                             font-weight: 500;
                             font-size: 10px;
                             line-height: 14.16px;
@@ -286,8 +288,8 @@
                         }
     
                         .mid {
-                            width: 434px;
-                            height: 52px;
+                            max-width: 434px;
+                            max-height: 52px;
                             margin-top: 5px;
                             font-family: 'Sequel Sans', sans-serif;
                             font-weight: 800;
@@ -297,8 +299,8 @@
                         }
     
                         .bottom {
-                            width: 414px;
-                            height: 56px;
+                            max-width: 414px;
+                            max-height: 56px;
                             margin-top: 4px;
                             font-family: 'DM Sans', sans-serif;
                             font-weight: 500;
@@ -323,14 +325,14 @@
     
         .slider {
             background: #EBEEF3;
-            width: 700px;
-            height: 65px;
+            max-width: 700px;
+            max-height: 65px;
             margin-top: -95px;
             border-radius: 6px;
     
             .sliderContainer {
-                width: 270px;
-                height: 40px;
+                max-width: 270px;
+                max-height: 40px;
                 margin-top: 0px;
                 margin-left: 373px;
                 border: 2px solid #EBEEF3;
@@ -338,13 +340,13 @@
     
     
                 .sliderInside {
-                    width: 270px;
-                    height: 40px;
+                    max-width: 270px;
+                    max-height: 40px;
                     
                     .arrowkeyLeft {
                         margin-top: 20px;
-                        width: 40px;
-                        height: 28px;
+                        max-width: 40px;
+                        max-height: 40px;
                         // background-color: rgb(179, 178, 178);
                         border-radius: 3px;
                         display: flex;
@@ -361,8 +363,8 @@
     
                     .arrowkeyRight {
                         margin-top: 20px;
-                        width: 40px;
-                        height: 28px;
+                        max-width: 40px;
+                        max-height: 28px;
                         border-radius: 3px;
                         display: flex;
                         justify-content: center;
@@ -379,8 +381,8 @@
     
                         .pagenum {
                             cursor: pointer;
-                            width: 25px;
-                            height: 25px;
+                            max-width: 35px;
+                            max-height: 35px;
                             margin-left: 11px;
                             font-family: 'Sequel Sans', sans-serif;
                             font-weight: 405;
@@ -401,13 +403,56 @@
                             font-weight: 505;
                             font-size: 20px;
                             line-height: 60px;
-                            width: 25px;
-                            height: 25px;
+                            max-width: 25px;
+                            max-height: 25px;
                             border-radius: 50%;
     
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .newsSlider{
+        max-width: 400px;
+        margin-left: 65px;
+        .inner{
+            max-width: 400px;
+
+            .insideContainer{
+                max-width: 400px;
+
+                .newsSliderContainer{
+                    max-width: 400px;
+
+                    .newsSesction{
+                        .mid{
+                            max-width: 300px;
+                            font-size: 16px;
+                            line-height: 20px;
+                        }
+                        .bottom{
+                            max-width: 280px;
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+                    }
+                }
+                .coverImg{
+                    max-width: 400px;
+                }
+            }
+        }
+        .slider{
+            max-width: 400px;
+            margin-top: -5px;
+
+            .sliderContainer{
+                max-width: 200px;
+                margin-left: 200px;
             }
         }
     }

@@ -1,6 +1,6 @@
 .tContainer{
-    width: 570px;
-    height: 279px;
+    max-width: 570px;
+    height: 300px;
     padding-top: 16px;
     margin-left: 0px;
     margin-bottom: 16px;
@@ -9,13 +9,13 @@
         margin-left: 20px;
         margin-bottom: 10px;
         height: 285px;
-         width: 510px;
+        width: 510px;
         .firstcell{
             display: flex;
             gap: 5px;
 
             .slno{
-                width: 7.86px;
+                width:  7.86px;
                 height: 15px;
                 font-family:'Sequel Sans',sans-serif ;
                 font-weight: 550;
@@ -31,10 +31,10 @@
             .clubname{
                 margin-top: 5px;
                 width: 125px;
-                height: 15px;
+                height: 10px;
                 font-family: 'Sequel Sans',sans-serif;
                 font-weight: 550;
-                font-size: 13px;
+                font-size: 15px;
                 line-height: 15.34px;
                 color: #262626;
             }
@@ -76,7 +76,7 @@ tr{
             margin-left: 20px;
             margin-bottom: 10px;
             height: 285px;
-            width: 680px;
+            max-width: 680px;
             
             .firstcell{
                 display: flex;
@@ -130,5 +130,34 @@ tr{
     tr{
         height: 6px;
        
+    }
+}
+
+@media (max-width: 500px) {
+    .tContainer{
+        max-width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -80px;
+        table{
+            width: 400px;
+            gap: 0px;
+            max-width: 400px;
+            margin-left: 90px;
+            .firstcell{
+                flex-wrap: wrap;
+                gap: 0px;
+
+                .cellimg{
+                    width: 20px;
+                    height: 20px;
+                }
+                .clubname{
+                    width: 105px;
+                    font-size: 10px;
+                    line-height: 10px;
+                }
+            }
+        }
     }
 }

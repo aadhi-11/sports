@@ -11,7 +11,8 @@ const Category = () => {
         Category
       </div>
       <div className="categoryContainer">
-        <div className="SportsContainer">
+        
+        <div className="SportsContainer ">
             <div className="sportsHead1">
                 <div className="text1">
                     FOOTBALL
@@ -21,7 +22,7 @@ const Category = () => {
                 <img src={footBall} alt="" className='sportsImg1' />
             </div>
         </div>
-        <div className="SportsContainer">
+        <div className="SportsContainer ">
             
             <div className="sportsImgcontainer2">
                 <img src={basketBall} alt="" className='sportsImg2' />
@@ -32,7 +33,7 @@ const Category = () => {
                 </div>
             </div>
         </div>
-        <div className="SportsContainer">
+        <div className="SportsContainer ">
             <div className="sportsHead1">
                 <div className="text1">
                     SPORTSCAR
@@ -42,7 +43,7 @@ const Category = () => {
                 <img src={sportsCar} alt="" className='sportsImg1' />
             </div>
         </div>
-        <div className="SportsContainer">
+        <div className="SportsContainer ">
             
             <div className="sportsImgcontainer2">
                 <img src={tableTennis} alt="" className='sportsImg2' />

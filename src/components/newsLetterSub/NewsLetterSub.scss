@@ -1,26 +1,26 @@
 .newslettersub{
-    width: 1168px;
-    height: 427.35px;
+    max-width: 1168px;
+    max-height: 427.35px;
     margin-top: 40px;
     margin-left: 137px;
     display: flex;
 
     .newsLetterSubContainer{
-        width: 1168px;
-        height: 385px;
+        max-width: 1168px;
+        max-height: 385px;
         margin-top: 42.35px;
         border-radius: 6px;
         background: rgba(235, 238, 243, 1);
         display: flex;
         
         .leftContainer{
-            width: 648px;
-            height: 385px;
+            max-width: 648px;
+            max-height: 385px;
             margin-left: 68px;
 
             .textContainer{
-                width: 614px;
-                height: 120px;
+                max-width: 614px;
+                max-height: 120px;
                 margin-top: 83.65px;
                 
 
@@ -40,20 +40,20 @@
                 }
             }
             .bottomContainer{
-                width: 514px;
-                height: 58px;
+                max-width: 514px;
+                max-height: 58px;
                 margin-top: 55.35px;
                 border-radius: 0px 6px 6px 0px;
 
                 .formContainer{
                     width: 514px;
-                    height: 61.6px;
+                    max-height: 61.6px;
                     display: flex;
                     flex-direction: row;
                     border-radius: 0px 6px 6px 0px;
                     .emailContainer{
                         width: 445px;
-                        height: 61.6px;
+                        max-height: 61.6px;
                         border-radius: 0px 6px 6px 0px;
                         border: 1px solid rgba(38, 38, 38, 1);
                         display: flex;
@@ -61,16 +61,16 @@
                         align-items: center;
                         
                         .emailfield{
-                            margin-top: 10px;
+                            margin-top: 0px;
                             margin-left: 24px;
                             width: 439px;
-                            height: 58px;
+                            height: 61px;
                             border-radius: 0px 6px 6px 0px;
                             background-color: transparent;
                             border: none;
                             &::placeholder {
                                 width: 359px;
-                                // height: 20.3px;
+                                //height: 20.3px;
                                 
                                 font-family: 'DM Sans',sans-serif;
                                 font-weight: 400;
@@ -81,8 +81,8 @@
                         }
                     }
                     .btnContainer{
-                        width: 85.09px;
-                        height: 63.6px;
+                        max-width:  85.09px;
+                        max-height: 63.6px;
                         margin-top: 0px;
                         margin-left: -5px;
                         border-radius: 0px 6px 6px 0px;
@@ -101,25 +101,25 @@
             }
         }
         .rightContainer{
-            width: 520px;
-            height: 385px;
+            max-width: 520px;
+            max-height: 385px;
             margin-right: 0;
             margin-left: 0px;
             margin-top: 10px;
 
             .cover{
-                width: 520px;
-                height: 385px;
+                max-width: 520px;
+                max-height: 385px;
                 margin-top: -125px;
                 .coverImg{
-                    width: 520px;
-                    height: 385px;
+                    max-width: 520px;
+                    max-height: 385px;
     
                 }
             }
             .shadowContainer{
-                width: 378.09px;
-                height: 114.29px;
+                max-width: 378.09px;
+                max-height: 114.29px;
                 color:rgba(222, 226, 230, 1);
                 
             }
@@ -127,139 +127,212 @@
     }
 }
 
-@media (max-width: 900px) {
-    .newslettersub{
-        max-width: 700px;
-        height: 329px;
-        margin-left: 110px;
-        display: flex;
-        margin-top: 30px;
+// @media (max-width: 900px) {
+//     .newslettersub{
+//         max-width: 700px;
+//         height: 329px;
+//         margin-left: 110px;
+//         display: flex;
+//         margin-top: 30px;
     
-        .newsLetterSubContainer{
-            max-width: 700px;
-            height: 229px;
-            margin-top: 42.35px;
-            border-radius: 6px;
-            background: rgba(235, 238, 243, 1);
-            display: flex;
+//         .newsLetterSubContainer{
+//             max-width: 700px;
+//             height: 229px;
+//             margin-top: 42.35px;
+//             border-radius: 6px;
+//             background: rgba(235, 238, 243, 1);
+//             display: flex;
             
-            .leftContainer{
-                width: 365px;
-                height: 229px;
-                margin-left: 18px;
-                margin-top: 50px;
-                margin-left: 50px;
+//             .leftContainer{
+//                 width: 365px;
+//                 height: 229px;
+//                 margin-left: 18px;
+//                 margin-top: 50px;
+//                 margin-left: 50px;
                 
-                .textContainer{
-                    width: 365px;
-                    height: 90px;
-                    margin-top: 0px;
+//                 .textContainer{
+//                     width: 365px;
+//                     height: 90px;
+//                     margin-top: 0px;
     
+//                     .text{
+//                         width: 345px;
+//                         height: 90px;
+//                         font-family: 'Sequel Sans',sans-serif;
+//                         font-weight: 900;
+//                         font-size: 40px;
+//                         line-height: 40px;
+//                         // color: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
+//                         background-image: linear-gradient(to bottom, #262626, #B8C2CE);
+//                         -webkit-background-clip: text;
+//                         background-clip: text;
+//                         color: transparent;
+//                         letter-spacing: 0PX;
+//                     }
+//                 }
+//                 .bottomContainer{
+//                     width: 365px;
+//                     height: 58px;
+//                     margin-top: 0px;
+//                     border-radius: 0px 6px 6px 0px;
+    
+//                     .formContainer{
+//                         width: 365px;
+//                         height: 61.6px;
+//                         display: flex;
+//                         flex-direction: row;
+//                         border-radius: 0px 6px 6px 0px;
+//                         .emailContainer{
+//                             width: 365px;
+//                             height: 61.6px;
+//                             border-radius: 0px 6px 6px 0px;
+//                             border: 1px solid rgba(38, 38, 38, 1);
+//                             display: flex;
+//                             justify-content: center;
+//                             align-items: center;
+                            
+//                             .emailfield{
+//                                 margin-top: 0px;
+//                                 margin-left: 10px;
+//                                 width: 365px;
+//                                 height: 58px;
+//                                 border-radius: 0px 6px 6px 0px;
+//                                 background-color: transparent;
+//                                 border: none;
+//                                 &::placeholder {
+//                                     width: 319px;
+//                                     // height: 20.3px;
+                                    
+//                                     font-family: 'DM Sans',sans-serif;
+//                                     font-weight: 400;
+//                                     font-size: 20px;
+//                                     line-height: 28px;
+//                                     color: rgba(38, 38, 38, 0.37);
+//                                 }
+//                             }
+//                         }
+//                         .btnContainer{
+//                             width: 25.09px;
+//                             height: 62.6px;
+//                             margin-top: 0px;
+//                             margin-left: -5px;
+//                             border-radius: 0px 6px 6px 0px;
+//                             background: rgba(38, 38, 38, 1);
+//                             display: flex;
+//                             justify-content: center;
+//                             align-items: center;
+    
+//                             .submitIcon{
+//                                 color:rgba(235, 238, 243, 1) ;
+//                                 font-size: 30px;
+//                             }
+    
+//                         }
+//                     }
+//                 }
+//             }
+//             .rightContainer{
+//                 width: 335px;
+//                 height: 248px;
+//                 margin-right: 0;
+//                 margin-left: 20px;
+//                 margin-top: 0px;
+    
+//                 .cover{
+//                     width: 335px;
+//                     height: 248px;
+//                     margin-top: -135px;
+//                     margin-left: -5px;
+//                     .coverImg{
+//                         width: 275px;
+//                         height: 238px;
+        
+//                     }
+//                 }
+//                 .shadowContainer{
+//                     width: 178.09px;
+//                     height: 114.29px;
+//                     color:rgba(222, 226, 230, 1);
+//                     margin-top: 10px;
+//                     margin-left: 10px;
+//                     .shadow{
+//                         width: 178.09px;
+//                         height: 114.29px;
+//                     }
+                    
+//                 }
+//             }
+//         }
+//     }
+// }
+
+@media (max-width: 500px) {
+    .newslettersub{
+        max-width: 450px;
+        margin-top: 1100px;
+        margin-left: 65px;
+        max-height: 290px;
+
+        .newsLetterSubContainer{
+            max-width: 459px;
+            max-height: 290px;
+
+            .leftContainer{
+                max-width: 280px;
+                margin-left: 15px;
+                margin-top: -25px;
+
+                .textContainer{
+                    max-width: 250px;
                     .text{
-                        width: 345px;
-                        height: 90px;
-                        font-family: 'Sequel Sans',sans-serif;
-                        font-weight: 900;
-                        font-size: 40px;
-                        line-height: 40px;
-                        // color: linear-gradient(180deg, #262626 0%, #B8C2CE 100%);
-                        background-image: linear-gradient(to bottom, #262626, #B8C2CE);
-                        -webkit-background-clip: text;
-                        background-clip: text;
-                        color: transparent;
-                        letter-spacing: 0PX;
+                        font-weight: 800;
+                        font-size: 28px;
+                        line-height: 28px;
                     }
                 }
                 .bottomContainer{
-                    width: 365px;
-                    height: 58px;
-                    margin-top: 0px;
-                    border-radius: 0px 6px 6px 0px;
-    
+                    max-width: 250px;
+                    margin-top: 20px;
                     .formContainer{
-                        width: 365px;
-                        height: 61.6px;
-                        display: flex;
-                        flex-direction: row;
-                        border-radius: 0px 6px 6px 0px;
+                        width: 250px;
+
                         .emailContainer{
-                            width: 365px;
-                            height: 61.6px;
-                            border-radius: 0px 6px 6px 0px;
-                            border: 1px solid rgba(38, 38, 38, 1);
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            
+                            width: 210px;
                             .emailfield{
-                                margin-top: 0px;
-                                margin-left: 10px;
-                                width: 365px;
-                                height: 58px;
-                                border-radius: 0px 6px 6px 0px;
-                                background-color: transparent;
-                                border: none;
-                                &::placeholder {
-                                    width: 319px;
-                                    // height: 20.3px;
-                                    
-                                    font-family: 'DM Sans',sans-serif;
-                                    font-weight: 400;
-                                    font-size: 20px;
-                                    line-height: 28px;
-                                    color: rgba(38, 38, 38, 0.37);
+                                width: 180px;
+                                &::placeholder{
+                                    width: 160px;
+                                    font-size: 15px;
+                                    line-height: 15px;
                                 }
                             }
-                        }
-                        .btnContainer{
-                            width: 25.09px;
-                            height: 62.6px;
-                            margin-top: 0px;
-                            margin-left: -5px;
-                            border-radius: 0px 6px 6px 0px;
-                            background: rgba(38, 38, 38, 1);
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-    
-                            .submitIcon{
-                                color:rgba(235, 238, 243, 1) ;
-                                font-size: 30px;
-                            }
-    
                         }
                     }
                 }
             }
             .rightContainer{
-                width: 335px;
-                height: 248px;
-                margin-right: 0;
-                margin-left: 20px;
-                margin-top: 0px;
-    
+                max-width: 210px;
+                max-height: 300px;
+                margin-top: 60px;
+                margin-left: -10px;
+
                 .cover{
-                    width: 335px;
-                    height: 248px;
-                    margin-top: -135px;
-                    margin-left: -5px;
+                    max-width: 210px;
+                    max-height: 300px;
+
                     .coverImg{
-                        width: 275px;
-                        height: 238px;
-        
+                        max-width: 210px;
+                        max-height: 300px;
+                        height: 200px;
                     }
                 }
                 .shadowContainer{
-                    width: 178.09px;
-                    height: 114.29px;
-                    color:rgba(222, 226, 230, 1);
-                    margin-top: 10px;
-                    margin-left: 10px;
+                    max-width: 210px;
+                    max-height: 106px;
                     .shadow{
-                        width: 178.09px;
-                        height: 114.29px;
+                        max-width: 210px;
+                        max-height: 106px;
                     }
-                    
                 }
             }
         }

@@ -2,7 +2,7 @@
 
 .category,
 .categoryExt {
-    width: 1170px;
+    max-width: 1170px;
     height: 488px;
     margin-left: 135px;
     background-color: #ffffff;
@@ -19,22 +19,24 @@
     }
 
     .categoryContainer {
-        width: 1170px;
+        max-width: 1170px;
         height: 318px;
         display: flex;
         justify-content: space-between;
         margin: 0;
         padding: 0;
-
+        
         .SportsContainer {
+
             margin-top: 10px;
-            width: 270px;
+            max-width: 270px;
             height: 318px;
             display: flex;
             flex-direction: column;
 
+
             .sportsHead1 {
-                width: 270px;
+                max-width: 270px;
                 height: 116px;
 
                 border-radius: 6px;
@@ -63,13 +65,13 @@
             }
 
             .sportsImgcontainer1 {
-                width: 270px;
+                max-width: 270px;
                 height: 288px;
                 margin-top: 50px;
                 border-radius: 6px;
 
                 .sportsImg1 {
-                    width: 100%;
+                    max-width: 270px;
                     height: 100%;
                     border-radius: 6px;
                 }
@@ -194,8 +196,8 @@
                     border-radius: 6px;
 
                     .sportsImg1 {
-                        width: 140px;
-                        height: 130px;
+                        max-width: 140px;
+                        max-height: 130px;
                         border-radius: 6px;
                     }
                 }
@@ -247,4 +249,60 @@
         }
     }
 
+}
+@media (max-width: 500px) {
+    .category {
+        max-width: 450px;
+        margin-top: 450px;
+        margin-left: 220px;
+        margin-right: 40px;
+        .categoryHeading{
+            margin-left: 0px;
+        }
+        .categoryContainer{
+            max-width: 450px;
+            flex-wrap: wrap;
+
+
+            .SportsContainer{
+                max-width: 230px;
+                
+                .sportsHead1{
+                    max-width: 130px;
+
+                    .text1{
+                        max-width: 100px;
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                }
+                .sportsImgcontainer1{
+                    // width: 130px;
+                    max-width: 130px;
+                    .sportsImg1{
+                        // width: 130px;
+                        max-width: 130px;
+                    }
+                }
+
+                .sportsHead2{
+                    max-width: 130px;
+
+                    .text{
+                        max-width: 130px;
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+                }
+                .sportsImgcontainer2{
+                    max-width: 130px;
+
+                    .sportsImg2{
+                        max-width: 130px;
+                    }
+                }
+            }
+
+        }
+    }
 }

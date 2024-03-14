@@ -14,7 +14,7 @@
     margin-left: -78px;
     position: relative;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 
 
     .bgContainer {
@@ -251,16 +251,17 @@
         }
 
         .topFrame {
-            width: 270px;
-            height: 233px;
+            max-width: 270px;
+            max-height: 233px;
             margin-top: 28px;
             border-radius: 6px;
             position: relative;
             cursor: pointer;
+            margin-bottom: 150px;
 
             .coverImg {
-                width: 100%;
-                height: 100%;
+                max-width: 270px;
+                max-height: 233px;
                 border-radius: 6px;
                 mix-blend-mode: multiply;
             }
@@ -1070,6 +1071,7 @@
                 border-radius: 6px;
                 position: relative;
                 cursor: pointer;
+                
 
                 .coverImg {
                     max-width: 100px;
@@ -1121,4 +1123,216 @@
         }
     }
 
+}
+
+@media (max-width: 500px) {
+    .hero,.heroExt{
+        max-width: 400px;
+        margin-left: 45px;
+        .bgContainer {
+            max-width: 250px;
+            padding-left: 0;
+
+            .background{
+                max-width: 250px;
+                max-height: 180px;
+                margin-left: -50px;
+                padding-left: 0;
+            }
+        }
+        .mainText{
+           
+            max-width: 200px;
+            margin-top: -40px;
+            margin-left: -90px;
+
+            .text{
+                font-size: 30px;
+                line-height: 25px;
+            }
+        }
+        .CentralDiv{
+            max-width: 500px;
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+            .cover {
+                max-width: 320px;
+                margin-left: -80px;
+    
+                .img {
+                    max-width:320px;
+                    max-height: 200px;
+                    // height: 200px;
+                    // width: 350px;
+                    
+                    object-fit: cover;
+                }
+            }
+
+            .textBox{
+                max-width: 200px;
+                margin-left: -20px;
+                margin-right: 0px;
+                .paraContainer{
+                    max-width: 180px;
+                    padding-right: 0px;
+                }
+
+                .buttonContainer{
+                    max-width: 180px;
+                    margin-left: -60px;
+                    margin-top: 150px;
+                    .btn{
+                        max-width: 160px;
+                        
+                    }
+                }
+            }
+            .rightContainer{
+                max-width: 270px;
+                margin-top: 330px;
+                margin-left: -350px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .headContainer{
+                    max-width: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .title{
+                        max-width: 18px;
+                        color: black;
+                        font-size: 16px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+                }
+                .topFrame{
+                    max-width: 270px;
+                    max-width: 370px;
+
+                    .coverImg{
+                        max-width: 270px;
+                        max-height: 370px;
+                    }
+                    .topblendor{
+                        max-width: 270px;
+                        max-height: 370px;
+    
+                        .textContainer{
+                            max-width: 250px;
+                            width: 250px;
+    
+                            .date{
+                                margin-top: -10px;
+                                max-width: 200px;
+                                font-size: 15px;
+                                line-height: 16px;
+                                width: 200px;
+                            }
+                            .description{
+                                max-width: 250px;
+                                width: 250px;
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                height: 40px;
+                                // margin-top: -300px;
+                                
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+    }
+    .heroExt{
+        margin-bottom: 0px;
+        .CentralDiv{
+            .textBoxExt{
+                max-width: 200px;
+                margin-left: -20px;
+                margin-right: 0px;
+                .paraContainer{
+                    max-width: 180px;
+                    padding-right: 0px;
+                }
+                .buttonContainer2{
+                    max-width: 180px;
+                    margin-left: -60px;
+                    margin-top: 150px;
+                    .btn{
+                        max-width: 160px;
+                        
+                    }
+                }
+            }
+            .rightContainer{
+                max-width: 270px;
+                margin-top: 330px;
+                margin-left: -350px;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding-top: 100px;
+
+                .headContainer{
+                    max-width: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .title{
+                        max-width: 18px;
+                        color: black;
+                        font-size: 16px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+                }
+                .topFrame{
+                    max-width: 270px;
+                    max-height: 370px;
+
+                    .coverImg{
+                        max-width: 270px;
+                        max-height: 370px;
+                    }
+                    .topblendor{
+                        max-width: 270px;
+                        max-height: 370px;
+    
+                        .textContainer{
+                            max-width: 250px;
+                            width: 250px;
+    
+                            .date{
+                                margin-top: -10px;
+                                max-width: 200px;
+                                font-size: 15px;
+                                line-height: 16px;
+                                width: 200px;
+                            }
+                            .description{
+                                max-width: 250px;
+                                width: 250px;
+                                font-size: 20px;
+                                font-weight: 500;
+                                line-height: 20px;
+                                height: 40px;
+                                // margin-top: -300px;
+                                
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+    
 }

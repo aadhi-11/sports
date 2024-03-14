@@ -19,7 +19,7 @@ const sliderData = [
     ,
     {
         id: 2,
-        cover: newsSliderCover2,
+        cover: newsSliderCover1,
         sportName: "Cricket",
         date: 'Agence France-Presse - 04 June 2023',
         newshead: 'Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms',
@@ -27,7 +27,7 @@ const sliderData = [
     }
     , {
         id: 1,
-        cover: newsSliderCover3,
+        cover: newsSliderCover1,
         sportName: "HandBall",
         date: 'Agence France-Presse - 04 June 2023',
         newshead: 'Lionel Messi Leaving Ligue 1 Team Paris Saint-Germain, Club Confirms',
